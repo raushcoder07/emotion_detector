@@ -11,7 +11,7 @@ def predict_emotion(text):
     return model.predict(vect)[0]
 
 # CLI loop
-print("🔮 Emotion Detector - Type 'exit' to quit")
+print("Emotion Detector - Type 'exit' to quit")
 
 while True:
     text = input("Enter a sentence: ")
